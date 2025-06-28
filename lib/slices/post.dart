@@ -36,9 +36,14 @@ class Post extends StatelessWidget {
                 child: Image.network(
                   'https://picsum.photos/200/300',
                   fit: BoxFit.cover,
-              
                 ),
               ),
+              SizedBox(height: 10),
+              Row(
+                children: [
+                 
+                ],
+              )
             ],
           ),
         ],
