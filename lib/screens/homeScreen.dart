@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../slices/header.dart';
 import '../slices/shareField.dart';
 import '../slices/storiesPart.dart';
+import '../slices/post.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,8 +13,8 @@ class HomeScreen extends StatelessWidget {
       children: [
         const Header(),
         const ShareField(),
-        const StoriesPart()
-   
+        const StoriesPart(), 
+        const Post()
       ]));
   }
 }
